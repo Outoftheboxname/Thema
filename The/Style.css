@@ -1,0 +1,94 @@
+*{
+    flex:1;
+    
+}
+body{
+ 
+    background-color:crimson;
+    overflow:hidden;
+    width:100%;
+}
+#Agastya2{
+    background-color: rgb(210,169,169);
+ 
+ }
+.baratz {
+
+    background-color: rgb(238, 231, 226); 
+    border-style: solid;
+    border-color:black;
+
+}
+.baratz2{
+
+    background-color:rgb(219, 117, 48);
+    border-style: solid;
+    border-color:black;
+}
+.espaçador {
+    margin-top: 2%;
+}
+.options {
+ 
+    align-items: center;
+    columns:2;
+    margin:1500%;
+}
+.options button {
+    background-color: rgb(165, 165, 165);
+}
+.hemomominas{
+    width: 50%;
+}
+.header{
+    flex-direction: row;
+   
+}
+.images {
+    background-color: rgb(255, 255, 255);
+    width:75%;
+    
+}
+.title {
+    font-size:120%;
+    
+}
+.Augusto {
+    background-color:cornflowerblue;
+}
+.types {
+    padding-right:75%;
+    align-items: left;
+}
+.bastao {
+    width:5%;
+    
+}
+
+.Augusto2 {
+    background-color: cornflowerblue;
+    padding-top:2%;
+    padding-bottom:2.5%;
+    
+}
+
+.cruz {
+    width:5%;
+
+}
+.row1 {
+    columns:2;
+}
+.row2 {
+    columns:2;
+}
+.row3 {
+    columns:2;
+}
+.row4 {
+    columns:2;
+}
+.corpo_site {
+    flex-direction: row;
+   
+}

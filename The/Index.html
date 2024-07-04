@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js”></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div class="container corpo_site col-12">
+        <div class="row">
+            <div class="col-6 esquerda">
+                <div class="row header">
+                    <div class="col-1"></div>
+                    <div class="Title">
+                        <h1> Hospital Hemominas</h1>
+                    </div>
+                    <div>
+                        <img src="hemominas.png" class="hemomominas">
+                    </div>
+                </div>
+                <div class="col-12 content">
+                    <p class="a">Email:</p>
+                    <Input id="einput"></Input>
+                    <br>
+                    <p class="Paragráfo"> Nome:</p>
+                    <input type="text" id="name">
+                    <p class="Paragráfo">
+                    <p class="Paragráfo"> Sexo biológico</p>
+                    <select type="text" id="gender">
+                        <option value="Selecionar">Selecionar</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                    <div class="espaçador"> </div>
+                    <p>Idade</p>
+                    <input type="number" min="16" max="69" id="idade">
+                    <p class="Paragráfo"> Tipo sanguíneo</p>
+                    <div class="types">
+                        <div class="row1">
+                            <div class="row a1">
+                                <input type="checkbox" id="A1" value="A+">
+                                <label class="label">A+</label>
+                            </div>
+                            <div class="row a2">
+                                <input type="checkbox" id="A2" value="A-">
+                                <label class="label">A-</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row2">
+                            <div class="row b1"> <input type="checkbox" id="B1" value="B+">
+                                <label class="label">B+</label>
+                            </div>
+                            <div class="row b2"> <input type="checkbox" id="B2" value="B-">
+                                <label class="label">B-</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row3">
+                            <div class="row ab1"> <input type="checkbox" id="AB1" value="AB+">
+                                <label class="label">AB+</label>
+                            </div>
+                            <div class="row ab2"> <input type="checkbox" id="AB2" value="AB-">
+                                <label class="label">AB-</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row4">
+                            <div class="row o1"> <input type="checkbox" id="O1" value="O+">
+                                <label class="label">O+</label>
+                            </div>
+                            <div class="row o2"> <input type="checkbox" id="O2" value="O-" S>
+                                <label class="label">O-</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5" options> <button id="Done">Confirmar</button> </div>
+
+                            <div class="col-5" options> <button id="ALI">Ja Cadastrado?</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="Doe-sangue.jpg" alt="Sangue" class="images">
+            </div>
+
+
+        </div>
+        <div class="row Augusto col-12">
+            <div class="col-12"><a href="indexmedico.html"><img src="cruz.png" class="cruz"></a></div>
+            <br>
+            <p class="pacilabel"> Médico </p>
+        </div>
+    </div>
+</body>
+
+</html>
